@@ -1,0 +1,5 @@
+Climate Variable,Pearson r,p-value,Significant?
+Temperature,-0.406,0.0155,Yes*
+Precipitation,0.041,0.8154,No
+Humidity,-0.153,0.3805,No
+Solar_Radiation,0.097,0.5783,No
