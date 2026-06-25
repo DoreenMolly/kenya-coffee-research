@@ -1,0 +1,8 @@
+Variable,Model_1_Temp,Model_2_Year,Model_3_Both,Model_4_Diff
+Constant,2574.5,9698.3,9231.2,-7.8
+Temperature,-117.7*,--,-86.1,--
+Year,--,-4.6**,-3.6,--
+Temp_Change,--,--,--,34.1
+,,,,
+R²,0.165,0.188,0.267,0.029
+N,35,35,35,34

@@ -1,0 +1,5 @@
+,Constant,Temperature,Year,Temp_Change,R²,N
+Model 1: Temp Only,2574.5 (p=0.005),-117.7* (p=0.015),--,--,0.165,35
+Model 2: Year Only,9698.3 (p=0.007),--,-4.6** (p=0.009),--,0.188,35
+Model 3: Temp+Year,9231.2 (p=0.008),-86.1 (p=0.073),-3.6* (p=0.042),--,0.267,35
+Model 4: Differences,-7.8 (p=0.632),--,--,34.1 (p=0.332),0.029,34
