@@ -139,6 +139,7 @@ The current model accounts for roughly half of the variation in yield, which sug
 Similarly, because of the persistence finding that points toward economic and management-related factors rather than purely biological ones, two extensions follow naturally: incorporating coffee price data alongside the effects of the 1989 market liberalization, and eventually accounting for disease pressure and farm-level investment, neither of which is captured in the current dataset.
 
 Moving from a national average toward region-specific analysis would help determine whether these climate relationships hold consistently across Kenya's coffee-growing regions even though matching regional yield data has not yet been collected.
+
 ---
 
 ## Data Sources
