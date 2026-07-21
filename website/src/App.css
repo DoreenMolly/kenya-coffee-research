@@ -1,0 +1,27 @@
+main {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.scene {
+min-height: 90vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 60 px 0;
+}
+
+.scene-label {
+    font-size: 13 px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #8a6d5c;
+    margin: 0 0 12px;
+}
+
+.scene-content {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #4a4038;
+}
