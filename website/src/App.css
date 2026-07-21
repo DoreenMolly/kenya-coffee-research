@@ -82,3 +82,7 @@ justify-content: center;
 .scene {
     width: 100%
 }
+
+.scene-inner-wide {
+  max-width: 960px;
+}

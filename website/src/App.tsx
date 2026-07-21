@@ -1,5 +1,6 @@
 import Scene from './components/Scene'
 import { scenes } from './data/scenes'
+import YieldClimateChart from './components/YieldClimateChart'
 import './App.css'
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           tone={index % 2 === 0 ? 'light' : 'dark'}
           >
           <p>{scene.body}</p>
+          {index === 1 && <YieldClimateChart />}
         </Scene>
       ))}
     </main>
