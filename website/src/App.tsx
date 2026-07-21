@@ -5,8 +5,19 @@ import './App.css'
 function App() {
   return (
     <main>
-      {scenes.map((scene) => (
-        <Scene key={scene.label} label={scene.label} title={scene.title}>
+      <header className="hero">
+        <p className="hero-eyebrow">A data science investigation</p>
+        <h1 className="hero-title">How much does climate explain Kenya's declining coffee yield?</h1>
+        <p className="hero-sub">35 years of data. Five Models.</p>
+      </header>
+
+      {scenes.map((scene, index) => (
+        <Scene 
+          key={scene.label} 
+          label={scene.label} 
+          title={scene.title}
+          tone={index % 2 === 0 ? 'light' : 'dark'}
+          >
           <p>{scene.body}</p>
         </Scene>
       ))}
