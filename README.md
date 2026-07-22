@@ -8,7 +8,7 @@
 
 > How much does climate explain Kenya's 23% decline in coffee yield since 1990? **Short answer: It explains about half.**
 
-**→ [Notebooks](./notebooks) · [Figures](./reports)**
+**→ [Live site](https://doreenmolly.github.io/kenya-coffee-research/) · [Notebooks](./notebooks) · [Figures](./reports)**
 
 ---
 
