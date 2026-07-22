@@ -18,6 +18,7 @@ function App() {
           label={scene.label} 
           title={scene.title}
           tone={index % 2 === 0 ? 'light' : 'dark'}
+          wide={index === 1}
           >
           <p>{scene.body}</p>
           {index === 1 && <YieldClimateChart />}
