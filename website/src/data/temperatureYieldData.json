@@ -1,0 +1,177 @@
+[
+  {
+    "year": 1990,
+    "temperature": 17.82478070175438,
+    "yield": 678.6
+  },
+  {
+    "year": 1991,
+    "temperature": 18.32064035087719,
+    "yield": 556.0
+  },
+  {
+    "year": 1992,
+    "temperature": 18.271350877192983,
+    "yield": 554.6
+  },
+  {
+    "year": 1993,
+    "temperature": 17.989491228070175,
+    "yield": 474.7
+  },
+  {
+    "year": 1994,
+    "temperature": 18.2794649122807,
+    "yield": 503.5
+  },
+  {
+    "year": 1995,
+    "temperature": 17.97883333333333,
+    "yield": 594.4
+  },
+  {
+    "year": 1996,
+    "temperature": 17.901991228070173,
+    "yield": 552.3
+  },
+  {
+    "year": 1997,
+    "temperature": 18.28985087719298,
+    "yield": 388.0
+  },
+  {
+    "year": 1998,
+    "temperature": 17.918666666666667,
+    "yield": 300.9
+  },
+  {
+    "year": 1999,
+    "temperature": 18.630807017543855,
+    "yield": 400.6
+  },
+  {
+    "year": 2000,
+    "temperature": 18.912938596491227,
+    "yield": 592.4
+  },
+  {
+    "year": 2001,
+    "temperature": 18.34621929824561,
+    "yield": 304.1
+  },
+  {
+    "year": 2002,
+    "temperature": 18.59985087719298,
+    "yield": 305.3
+  },
+  {
+    "year": 2003,
+    "temperature": 18.500122807017544,
+    "yield": 326.1
+  },
+  {
+    "year": 2004,
+    "temperature": 18.87163157894737,
+    "yield": 284.9
+  },
+  {
+    "year": 2005,
+    "temperature": 19.136745614035085,
+    "yield": 265.9
+  },
+  {
+    "year": 2006,
+    "temperature": 18.867798245614033,
+    "yield": 284.1
+  },
+  {
+    "year": 2007,
+    "temperature": 18.45788596491228,
+    "yield": 327.4
+  },
+  {
+    "year": 2008,
+    "temperature": 18.691131578947367,
+    "yield": 271.0
+  },
+  {
+    "year": 2009,
+    "temperature": 19.20300877192982,
+    "yield": 337.5
+  },
+  {
+    "year": 2010,
+    "temperature": 18.41865789473684,
+    "yield": 262.5
+  },
+  {
+    "year": 2011,
+    "temperature": 18.678956140350877,
+    "yield": 314.0
+  },
+  {
+    "year": 2012,
+    "temperature": 18.360570175438593,
+    "yield": 446.3
+  },
+  {
+    "year": 2013,
+    "temperature": 18.48483333333333,
+    "yield": 362.5
+  },
+  {
+    "year": 2014,
+    "temperature": 18.922210526315787,
+    "yield": 450.0
+  },
+  {
+    "year": 2015,
+    "temperature": 18.92255263157895,
+    "yield": 370.0
+  },
+  {
+    "year": 2016,
+    "temperature": 18.63507894736842,
+    "yield": 404.4
+  },
+  {
+    "year": 2017,
+    "temperature": 18.826921052631576,
+    "yield": 336.7
+  },
+  {
+    "year": 2018,
+    "temperature": 17.846508771929823,
+    "yield": 358.0
+  },
+  {
+    "year": 2019,
+    "temperature": 19.04131578947368,
+    "yield": 372.1
+  },
+  {
+    "year": 2020,
+    "temperature": 18.016184210526315,
+    "yield": 308.3
+  },
+  {
+    "year": 2021,
+    "temperature": 18.40529824561403,
+    "yield": 318.9
+  },
+  {
+    "year": 2022,
+    "temperature": 18.267842105263156,
+    "yield": 474.4
+  },
+  {
+    "year": 2023,
+    "temperature": 18.5729649122807,
+    "yield": 435.2
+  },
+  {
+    "year": 2024,
+    "temperature": 18.46252631578947,
+    "yield": 435.7
+  }
+]

@@ -1,9 +1,10 @@
 import Scene from './components/Scene'
 import { scenes } from './data/scenes'
-import YieldClimateChart from './components/YieldClimateChart'
-import './App.css'
+import YieldDeclineChart from './components/YieldDeclineChart'
+import TemperatureYieldScatter from './components/TemperatureYieldScatter'
 import ModelProgressionChart from './components/ModelProgressionChart'
 import StatCallout from './components/StatCallout'
+import './App.css'
 
 function App() {
   return (
@@ -15,18 +16,22 @@ function App() {
       </header>
 
       {scenes.map((scene, index) => (
-        <Scene 
-          key={scene.label} 
-          label={scene.label} 
+        <Scene
+          key={scene.label}
+          label={scene.label}
           title={scene.title}
           tone={index % 2 === 0 ? 'light' : 'dark'}
-          wide={index === 1 || index === 2}
-          >
+          wide={index === 1 || index === 2 || index === 3}
+        >
           <p className="scene-text">{scene.body}</p>
-          {index === 1 && <YieldClimateChart />}
-          {index === 2 && <ModelProgressionChart/>}
-          {index === 3 && (
+          {index === 1 && <YieldDeclineChart />}
+          {index === 2 && <TemperatureYieldScatter />}
+          {index === 3 && <ModelProgressionChart />}
+          {index === 4 && (
             <StatCallout value="p = 0.001" caption="Yield_Lag1 coefficient, statistically significant" />
+          )}
+          {index === 5 && (
+            <StatCallout value="51%" caption="of yield variation explained by the final model" />
           )}
         </Scene>
       ))}
