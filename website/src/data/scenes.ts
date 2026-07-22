@@ -7,8 +7,8 @@ export interface SceneData {
 export const scenes: SceneData[] = [
     {
         label: 'Scene 1',
-        title: 'How much does climate explain the falling coffee yield trend in Kenya?',
-        body: 'Kenyan coffee yield has dropped 23% since 1990.',
+        title: 'Eight coffee-growing regions.',
+        body: 'This analysis combines coffee production records with satellite climate data spanning 1990 to 2024 across eight of Kenya\u2019s major coffee-growing regions. The data represents roughly 95% of national production. The goal is to determine how much of the country\u2019s decline in coffee yield can be attributed to climate.',
     },
     {
         label: 'Scene 2',

@@ -5,14 +5,17 @@ import BivariateGrid from './components/BivariateGrid'
 import ModelProgressionChart from './components/ModelProgressionChart'
 import StatCallout from './components/StatCallout'
 import './App.css'
+import ScopeStats from './components/ScopeStats'
 
 function App() {
   return (
     <main>
       <header className="hero">
-        <p className="hero-eyebrow">A data science investigation</p>
-        <h1 className="hero-title">How much does climate explain Kenya's declining coffee yield?</h1>
-        <p className="hero-sub">35 years of data. Five Models.</p>
+        <div className="hero-inner">
+          <p className="hero-eyebrow">A data science study</p>
+          <h1 className="hero-title">How much does climate explain Kenya's declining coffee yield?</h1>
+          <p className="hero-sub">35 years of data. Five Models.</p>
+        </div>
       </header>
 
       {scenes.map((scene, index) => (
@@ -27,6 +30,7 @@ function App() {
             <StatCallout value="51%" caption="of yield variation explained by the final model" />
           )}
           <p className="scene-text">{scene.body}</p>
+          {index === 0 && <ScopeStats />}
           {index === 1 && <YieldDeclineChart />}
           {index === 2 && <BivariateGrid />}
           {index === 3 && (
