@@ -1,0 +1,7 @@
+[
+    {"model": "Model 1", "description": "Temperature only", "r2": 0.165 },
+    {"model": "Model 2", "description": "Full climate model", "r2": 0.376 },
+    {"model": "Model 3", "description": "Climate + year + HAC-corrected", "r2": 0.402 },
+    {"model": "Model 4", "description": "First-differences", "r2": 0.029 },
+    {"model": "Model 5", "description": "Climate + lagged yield", "r2": 0.513 }
+]

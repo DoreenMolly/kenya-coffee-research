@@ -92,3 +92,22 @@ justify-content: center;
 .scene-text {
     max-width: 560px;
 }
+
+.stat-callout {
+    margin-top: 32px;
+    text-align: center;
+}
+
+.stat-value {
+    font-size: 72px;
+    font-weight: 600;
+    color: #c1502e;
+    margin: 0;
+    line-height: 1;
+}
+
+.stat-caption {
+    font-size: 16px;
+    color: #8a6d5c;
+    margin: 12px 0 0;
+}

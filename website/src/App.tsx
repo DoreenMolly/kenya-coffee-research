@@ -2,6 +2,8 @@ import Scene from './components/Scene'
 import { scenes } from './data/scenes'
 import YieldClimateChart from './components/YieldClimateChart'
 import './App.css'
+import ModelProgressionChart from './components/ModelProgressionChart'
+import StatCallout from './components/StatCallout'
 
 function App() {
   return (
@@ -18,10 +20,14 @@ function App() {
           label={scene.label} 
           title={scene.title}
           tone={index % 2 === 0 ? 'light' : 'dark'}
-          wide={index === 1}
+          wide={index === 1 || index === 2}
           >
-          <p>{scene.body}</p>
+          <p className="scene-text">{scene.body}</p>
           {index === 1 && <YieldClimateChart />}
+          {index === 2 && <ModelProgressionChart/>}
+          {index === 3 && (
+            <StatCallout value="p = 0.001" caption="Yield_Lag1 coefficient, statistically significant" />
+          )}
         </Scene>
       ))}
     </main>
